@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../assets/js/vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <img v-bind:src="imgSrc" alt="" width="200px">
+</div>
+
+<script>
+    var app=new Vue({
+        el:'#app',
+        data:{
+            imgSrc:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1298361576,851075647&fm=27&gp=0.jpg'
+        }
+    })
+
+</script>
+</body>
+</html>
